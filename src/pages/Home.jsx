@@ -1,9 +1,10 @@
-import Test from '../components/Test'
+import Navbar from '../components/Navbar'
 
 const Home = () => {
   return (
     <div>
-      <Test />
+      <Navbar />
+      
     </div>
   )
 }
