@@ -6,11 +6,11 @@ const Hero = () => {
       <div className="flex flex-col justify-center">
         <div>
           <h2 className="text-3xl mb-4">Hi, I'm Dev 👋</h2>
-          <p className="text-xl mb-4"><span className='text-blue-500'>Backend Web Developer</span> | JavaScript, Node Js, Express Js</p>
-          <p className="text-[17px] max-w-[520px]">Building Scalable APIs & Efficient Server Architectures and backend systems using Node.js, Express, and MongoDB.</p>
+          <p className="text-xl mb-4"><span className='text-blue-500'>Backend Web Developer</span> | <span className='text-[17px]'>JavaScript, Node Js, Express Js</span></p>
+          <p className="text-[16px] max-w-[520px]">Building Scalable APIs & Efficient Server Architectures and backend systems using Node.js, Express, and MongoDB.</p>
         </div>
         <div className="mt-8 gap-2">
-          <a href="/" className="px-3 py-3 bg-blue-500 rounded-md hover:opacity-80">Contact Me</a>
+          <a href="/" className="px-3 py-3 bg-blue-500 rounded-md hover:opacity-80 text-sm">Contact Me</a>
         </div>
       </div>
       <div>
