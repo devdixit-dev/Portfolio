@@ -3,8 +3,9 @@ const Navbar = () => {
     <div>
       <div className="px-20 py-5 flex justify-between items-center">
         <a href="/">
-          <div className="flex items-center tracking-widest">
-            <h2 className="text-4xl">D</h2>
+          <div className="flex items-center tracking-widest border-b-2 pb-1">
+            <h2 className="text-4xl">D.</h2>
+            <p className="flex mt-3 ml-0.5">developer</p>
           </div>
         </a>
         <div>
