@@ -13,7 +13,7 @@ const TechStack = () => {
     <div>
       <div className="flex bg-[#001E2B] justify-center px-20 py-5 mt-8">
         <div className="flex flex-col p-8">
-          <p className="text-[22px] mb-4 text-center">Tech Stack</p>
+          <p className="text-[22px] mb-6 text-center">Tech Stack</p>
           <div className='flex gap-4'>
             <div className='flex gap-20 justify-center items-center'>
               <div>
