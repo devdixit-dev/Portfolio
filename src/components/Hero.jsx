@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import bg_2 from '../assets/bg_2.png'
 import waving_hand from '../assets/waving_hand.gif'
 
@@ -16,7 +17,7 @@ const Hero = () => {
           <p className="text-[16px] max-w-[520px]">Building Scalable APIs & Efficient Server Architectures and backend systems using Node.js, Express, and MongoDB.</p>
         </div>
         <div className="mt-8 gap-2">
-          <a href="/contact" className="px-3 py-3 bg-blue-500 rounded-md hover:opacity-80 text-sm">Contact Me</a>
+          <Link to={"/contact"} className="px-3 py-3 bg-blue-500 rounded-md hover:opacity-80 text-sm">Contact Me</Link>
         </div>
       </div>
       <div>
