@@ -1,9 +1,11 @@
 import mindcanvas_preview from '../assets/project_preview/mindcanvas.png'
 import authapp_preview from '../assets/project_preview/authapp.png'
+import sipcalc_preview from '../assets/project_preview/5.png'
+import portfolio_preview from '../assets/project_preview/6.png'
 
 const ProjectCard = () => {
   return (
-    <div className="px-20 flex justify-between gap-8 flex-wrap mb-6">
+    <div className="px-20 flex gap-20 flex-wrap mb-6">
 
       {/* 1 - project card */}
       <div className="w-[310px] h-[360px] bg-gray-700 rounded-xl">
@@ -77,6 +79,44 @@ const ProjectCard = () => {
         </div>
         <div className="flex justify-center gap-4 mt-4">
           <a href="https://github.com/devdixit-dev/short.ly" target='_blank' className="bg-blue-500 flex w-1/3 justify-center items-center py-2 px-6 rounded-sm">Github</a>
+        </div>
+      </div>
+
+      {/* 5 project card */}
+      <div className="w-[310px] h-[360px] bg-gray-700 rounded-xl">
+        <div className='h-[210px] w-full overflow-hidden flex justify-center items-center mb-4'>
+          <img
+            src={sipcalc_preview}
+            className='w-full h-full object-cover rounded-tl-xl rounded-tr-xl'
+            alt="Card image"
+          />
+        </div>
+        <div className="flex flex-col items-center gap-2">
+          <h2 className="text-xl">SIP Calculator</h2>
+          <p className="text-sm">A react bases SIP calculator</p>
+        </div>
+        <div className="flex justify-center gap-4 mt-4">
+          <a href="https://monthly-sip-calculator.vercel.app/" target='_blank' className="bg-red-500 flex w-1/3 justify-center items-center py-2 px-6 rounded-sm">Live</a>
+          <a href="https://github.com/devdixit-dev/SIP-Calculator" target='_blank' className="bg-blue-500 flex w-1/3 justify-center items-center py-2 px-6 rounded-sm">Github</a>
+        </div>
+      </div>
+
+      {/* 6 project card */}
+      <div className="w-[310px] h-[360px] bg-gray-700 rounded-xl">
+        <div className='h-[210px] w-full overflow-hidden flex justify-center items-center mb-4'>
+          <img
+            src={portfolio_preview}
+            className='w-full h-full object-cover rounded-tl-xl rounded-tr-xl'
+            alt="Card image"
+          />
+        </div>
+        <div className="flex flex-col items-center gap-2">
+          <h2 className="text-xl">Portfolio</h2>
+          <p className="text-sm">React JS Portfolio</p>
+        </div>
+        <div className="flex justify-center gap-4 mt-4">
+          <a href="https://devdixit-portfolio.vercel.app/" target='_blank' className="bg-red-500 flex w-1/3 justify-center items-center py-2 px-6 rounded-sm">Live</a>
+          <a href="https://github.com/devdixit-dev/Portfolio" target='_blank' className="bg-blue-500 flex w-1/3 justify-center items-center py-2 px-6 rounded-sm">Github</a>
         </div>
       </div>
     </div>
