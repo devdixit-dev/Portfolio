@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
-import { Mail, Github, User } from 'lucide-react';
+import { Mail, Github, User, Phone, Sofa } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 const ContactSection: React.FC = () => {
@@ -62,6 +62,16 @@ const ContactSection: React.FC = () => {
                 <div>
                   <h4 className="font-semibold text-foreground">Email</h4>
                   <p className="text-muted-foreground">devdixitsocial@gmail.com</p>
+                </div>
+              </div>
+
+              <div className="flex items-center space-x-4">
+                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                  <Phone className="w-6 h-6 text-primary" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-foreground">Contact</h4>
+                  <p className="text-muted-foreground">+91 72279 23613</p>
                 </div>
               </div>
               
