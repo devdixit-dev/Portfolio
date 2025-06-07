@@ -27,7 +27,7 @@ const HomeSection: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               size="lg" 
-              onClick={scrollToContact}
+              onClick={() => window.open('mailto:devdixitsocial@gmail.com', '_blank')}
               className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3"
             >
               <Mail className="w-5 h-5 mr-2" />
@@ -37,7 +37,7 @@ const HomeSection: React.FC = () => {
               variant="outline" 
               size="lg"
               className="px-8 py-3"
-              onClick={() => window.open('https://github.com', '_blank')}
+              onClick={() => window.open('https://github.com/devdixit-dev', '_blank')}
             >
               <Github className="w-5 h-5 mr-2" />
               View GitHub
@@ -53,11 +53,11 @@ const HomeSection: React.FC = () => {
             </div>
             <div>
               <h3 className="text-2xl font-bold text-primary mb-2">Database</h3>
-              <p className="text-muted-foreground">MongoDB, PostgreSQL</p>
+              <p className="text-muted-foreground">MongoDB</p>
             </div>
             <div>
               <h3 className="text-2xl font-bold text-primary mb-2">APIs</h3>
-              <p className="text-muted-foreground">RESTful & GraphQL</p>
+              <p className="text-muted-foreground">RESTful</p>
             </div>
           </div>
         </div>

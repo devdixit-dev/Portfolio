@@ -6,32 +6,39 @@ import { Github, ExternalLink } from 'lucide-react';
 const ProjectsSection: React.FC = () => {
   const projects = [
     {
-      title: "E-Commerce API",
-      description: "A comprehensive REST API for an e-commerce platform with user authentication, product management, and order processing.",
-      technologies: ["Node.js", "Express.js", "MongoDB", "JWT"],
-      githubUrl: "https://github.com",
+      title: "Mind Canvas Blog App",
+      description: "A simple Blog App with REST API, user authentication, blog management",
+      technologies: ["EJS", "Node.js", "Express.js", "MongoDB"],
+      githubUrl: "https://github.com/devdixit-dev/Mind-Canvas",
+      liveUrl: "https://mind-canvas-blog-app.onrender.com/"
+    },
+    {
+      title: "SIP Calculator",
+      description: "A calculator with Monthly and Lumpsum",
+      technologies: ["Frontend Project", "React JS"],
+      githubUrl: "https://github.com/devdixit-dev/SIP-Calculator",
+      liveUrl: "https://monthly-sip-calculator.vercel.app/"
+    },
+    {
+      title: "Money Nest Andro-web App",
+      description: "Application that manage your spendings with android-web view. Easy to use and mobile first design",
+      technologies: ["EJS", "Node.js", "Express.js", "MongoDB"],
+      githubUrl: "https://github.com/devdixit-dev/Money-Nest-Web-App",
+      liveUrl: "https://money-nest-web-app.onrender.com/"
+    },
+    {
+      title: "MERN Authentication Project",
+      description: "Secure authentication microservice with session management.",
+      technologies: ["Node.js", "Express.js", "React.js", "MongoDB"],
+      githubUrl: "https://github.com/devdixit-dev/MERN-Auth-w-React",
       liveUrl: null
     },
     {
-      title: "Task Management System",
-      description: "Backend system for a task management application with real-time updates and team collaboration features.",
-      technologies: ["Node.js", "Socket.io", "PostgreSQL", "Redis"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com"
-    },
-    {
-      title: "Weather API Service",
-      description: "Microservice that aggregates weather data from multiple sources with caching and rate limiting.",
-      technologies: ["Python", "FastAPI", "Redis", "Docker"],
-      githubUrl: "https://github.com",
-      liveUrl: null
-    },
-    {
-      title: "Authentication Service",
-      description: "Secure authentication microservice with OAuth integration, password encryption, and session management.",
-      technologies: ["Node.js", "Express.js", "JWT", "bcrypt"],
-      githubUrl: "https://github.com",
-      liveUrl: null
+      title: "Portfolio",
+      description: "React based portfolio website",
+      technologies: ["React.js", "TypeScript", "Tailwind CSS"],
+      githubUrl: "https://github.com/devdixit-dev/Portfolio",
+      liveUrl: "https://devdixit-portfolio.vercel.app/"
     }
   ];
 
@@ -39,10 +46,12 @@ const ProjectsSection: React.FC = () => {
     <section id="projects" className="min-h-screen flex items-center justify-center px-4 py-20">
       <div className="container mx-auto">
         <div className="text-center mb-16 fade-in-up">
-          <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-6">Projects</h2>
+          <div className=''>
+            <h2 className="h-20 text-4xl md:text-5xl font-bold gradient-text">Projects</h2>
+          </div>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Here are some of the backend projects I've worked on to demonstrate 
-            my skills in server-side development and API design.
+            Here are some of the projects I've worked on to demonstrate 
+            my skills in server-side development, API design and Frontend skills also.
           </p>
         </div>
 
@@ -103,7 +112,7 @@ const ProjectsSection: React.FC = () => {
             </p>
             <Button 
               variant="outline"
-              onClick={() => window.open('https://github.com', '_blank')}
+              onClick={() => window.open('https://github.com/devdixit-dev', '_blank')}
             >
               <Github className="w-4 h-4 mr-2" />
               Follow on GitHub

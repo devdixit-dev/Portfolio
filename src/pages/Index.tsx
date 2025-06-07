@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import Navigation from '@/components/Navigation';
 import HomeSection from '@/components/sections/HomeSection';
@@ -47,10 +46,10 @@ const Index = () => {
       </main>
       
       {/* Footer */}
-      <footer className="glass-card border-t py-8 mt-20">
+      <footer className="glass-card border-t py-6 mt-20">
         <div className="container mx-auto px-4 text-center">
           <p className="text-muted-foreground">
-            © 2024 Backend Developer Portfolio. Built with React, TypeScript, and Tailwind CSS.
+            © 2025 Portfolio - Backend Developer . Built with React, TypeScript, and Tailwind CSS. Made by <a href="https://github.com/devdixit-dev" target='_blank' className='border-b-2'>Dev Dixit</a>
           </p>
         </div>
       </footer>

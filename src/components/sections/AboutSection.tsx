@@ -7,13 +7,11 @@ const AboutSection: React.FC = () => {
   const [showNextLine, setShowNextLine] = useState(false);
 
   const resumeLines = [
-    "🎓 Bachelor's in Computer Science",
     "💻 Proficient in Node.js, Express.js, and MongoDB",
     "🚀 Experience with RESTful API development",
     "📊 Database design and optimization",
     "🔧 Version control with Git and GitHub",
     "☁️ Basic knowledge of cloud platforms (AWS, Azure)",
-    "🧪 Test-driven development with Jest",
     "📱 Understanding of microservices architecture",
     "🔒 Implementation of authentication and authorization",
     "📈 Performance optimization and monitoring"
@@ -49,7 +47,7 @@ const AboutSection: React.FC = () => {
             <h3 className="text-2xl font-bold mb-6 text-primary">My Journey</h3>
             <div className="space-y-4 text-lg">
               <p className="text-muted-foreground leading-relaxed">
-                As a recent computer science graduate, I've dedicated myself to mastering 
+                As a Self-taught developer, I've dedicated myself to mastering 
                 backend development technologies. My passion lies in building robust APIs, 
                 optimizing database queries, and ensuring scalable architecture.
               </p>
@@ -87,15 +85,23 @@ const AboutSection: React.FC = () => {
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="glass-card p-6 text-center hover-lift">
             <h4 className="text-xl font-semibold text-primary mb-3">Backend Technologies</h4>
-            <p className="text-muted-foreground">Node.js, Express.js, Python, Java</p>
+            <p className="text-muted-foreground">Node.js, Express.js, Python (beginner)</p>
           </div>
           <div className="glass-card p-6 text-center hover-lift">
             <h4 className="text-xl font-semibold text-primary mb-3">Databases</h4>
-            <p className="text-muted-foreground">MongoDB, PostgreSQL, MySQL, Redis</p>
+            <p className="text-muted-foreground">MongoDB</p>
           </div>
           <div className="glass-card p-6 text-center hover-lift">
             <h4 className="text-xl font-semibold text-primary mb-3">Tools & Platforms</h4>
-            <p className="text-muted-foreground">Git, Docker, AWS, Postman</p>
+            <p className="text-muted-foreground">Git, Docker, Postman, VS Code</p>
+          </div>
+          <div className="glass-card p-6 text-center hover-lift">
+            <h4 className="text-xl font-semibold text-primary mb-3">OS</h4>
+            <p className="text-muted-foreground">Windows, Linux</p>
+          </div>
+          <div className="glass-card p-6 text-center hover-lift">
+            <h4 className="text-xl font-semibold text-primary mb-3">Soft Skills</h4>
+            <p className="text-muted-foreground">Probelm solving, Time efficiency, Team player, Fast learner</p>
           </div>
         </div>
       </div>

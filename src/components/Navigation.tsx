@@ -34,7 +34,7 @@ const Navigation: React.FC<NavigationProps> = ({ activeSection, setActiveSection
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="text-xl font-bold gradient-text">
-            DevPortfolio
+            Dev.developer
           </div>
 
           {/* Desktop Navigation */}

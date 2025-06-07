@@ -61,7 +61,7 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground">Email</h4>
-                  <p className="text-muted-foreground">developer@example.com</p>
+                  <p className="text-muted-foreground">devdixitsocial@gmail.com</p>
                 </div>
               </div>
               
@@ -71,7 +71,7 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground">GitHub</h4>
-                  <p className="text-muted-foreground">github.com/yourusername</p>
+                  <p className="text-muted-foreground">github.com/devdixit-dev</p>
                 </div>
               </div>
 
