@@ -49,7 +49,7 @@ const Index = () => {
       <footer className="glass-card border-t py-6 mt-20">
         <div className="container mx-auto px-4 text-center">
           <p className="text-muted-foreground">
-            © 2025 Portfolio - Backend Developer. Made by <a href="https://github.com/devdixit-dev" target='_blank' className='border-b-2'>Dev Dixit</a>
+            © 2025 Portfolio - Backend Developer. Made by <a href="https://github.com/devdixit-dev" target='_blank' className='border-b-2 text-white'>Dev Dixit</a>
           </p>
         </div>
       </footer>
