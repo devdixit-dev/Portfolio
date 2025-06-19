@@ -52,7 +52,7 @@ const ContactSection: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
-          <div className="glass-card p-8 hover-lift">
+          <div className="glass-card p-8 hover-lift rounded-sm">
             <h3 className="text-2xl font-bold text-primary mb-6">Let's Connect</h3>
             <div className="space-y-6">
               <div className="flex items-center space-x-4">
@@ -109,7 +109,7 @@ const ContactSection: React.FC = () => {
             </div>
           </div>
 
-          <div className="glass-card p-8 hover-lift">
+          <div className="glass-card p-8 hover-lift rounded-sm">
             <h3 className="text-2xl font-bold text-primary mb-6">Send Me a Message</h3>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>

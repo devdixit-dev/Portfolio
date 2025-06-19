@@ -45,7 +45,7 @@ const HomeSection: React.FC = () => {
           </div>
         </div>
         
-        <div className="mt-16 glass-card p-8 max-w-4xl mx-auto hover-lift">
+        <div className="mt-16 glass-card p-8 max-w-4xl mx-auto hover-lift rounded-sm">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
             <div>
               <h3 className="text-2xl font-bold text-primary mb-2">Node.js</h3>

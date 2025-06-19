@@ -43,7 +43,7 @@ const AboutSection: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="glass-card p-8 hover-lift">
+          <div className="glass-card p-8 hover-lift rounded-sm">
             <h3 className="text-2xl font-bold mb-6 text-primary">My Journey</h3>
             <div className="space-y-4 text-lg">
               <p className="text-muted-foreground leading-relaxed">
@@ -59,7 +59,7 @@ const AboutSection: React.FC = () => {
             </div>
           </div>
 
-          <div className="glass-card p-8 hover-lift">
+          <div className="glass-card p-8 hover-lift rounded-sm">
             <h3 className="text-2xl font-bold mb-6 text-primary">Skills & Experience</h3>
             <div className="space-y-3 font-mono text-sm">
               {resumeLines.slice(0, currentLineIndex + 1).map((line, index) => (
@@ -83,23 +83,23 @@ const AboutSection: React.FC = () => {
         </div>
 
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="glass-card p-6 text-center hover-lift">
+          <div className="glass-card p-6 text-center hover-lift rounded-sm">
             <h4 className="text-xl font-semibold text-primary mb-3">Backend Technologies</h4>
             <p className="text-muted-foreground">Node.js, Express.js, Python (beginner)</p>
           </div>
-          <div className="glass-card p-6 text-center hover-lift">
+          <div className="glass-card p-6 text-center hover-lift rounded-sm">
             <h4 className="text-xl font-semibold text-primary mb-3">Databases</h4>
             <p className="text-muted-foreground">MongoDB</p>
           </div>
-          <div className="glass-card p-6 text-center hover-lift">
+          <div className="glass-card p-6 text-center hover-lift rounded-sm">
             <h4 className="text-xl font-semibold text-primary mb-3">Tools & Platforms</h4>
             <p className="text-muted-foreground">Git, Docker, Postman, VS Code</p>
           </div>
-          <div className="glass-card p-6 text-center hover-lift">
+          <div className="glass-card p-6 text-center hover-lift rounded-sm">
             <h4 className="text-xl font-semibold text-primary mb-3">OS</h4>
             <p className="text-muted-foreground">Windows, Linux</p>
           </div>
-          <div className="glass-card p-6 text-center hover-lift">
+          <div className="glass-card p-6 text-center hover-lift rounded-sm">
             <h4 className="text-xl font-semibold text-primary mb-3">Soft Skills</h4>
             <p className="text-muted-foreground">Probelm solving, Time efficiency, Team player, Fast learner</p>
           </div>
