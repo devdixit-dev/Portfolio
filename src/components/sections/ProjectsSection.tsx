@@ -59,7 +59,7 @@ const ProjectsSection: React.FC = () => {
           {projects.map((project, index) => (
             <div 
               key={index} 
-              className="glass-card p-6 hover-lift"
+              className="glass-card p-6 hover-lift rounded-sm"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <h3 className="text-xl font-bold text-primary mb-3">{project.title}</h3>
@@ -104,7 +104,7 @@ const ProjectsSection: React.FC = () => {
         </div>
 
         <div className="mt-16 text-center">
-          <div className="glass-card p-8 max-w-2xl mx-auto hover-lift">
+          <div className="glass-card p-8 max-w-2xl mx-auto hover-lift rounded-sm">
             <h3 className="text-2xl font-bold text-primary mb-4">More Projects Coming Soon!</h3>
             <p className="text-muted-foreground mb-6">
               I'm constantly working on new projects to expand my skills and explore different technologies. 
