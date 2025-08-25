@@ -48,8 +48,8 @@ export default function Projects() {
       name: "Portfolio Website",
       description: "A modern, responsive portfolio website built with React.js and styled using Tailwind CSS, designed to showcase personal projects, skills, and experience. The website is fully responsive, optimized for performance, and features a clean, minimalistic design for a professional online presence.",
       techStack: ["React", "TypeScript", "Tailwind", "Lucide-react-icon"],
-      liveUrl: "https://github.com/devdixit-dev/MERN-Auth-w-React",
-      codeUrl: "https://github.com/devdixit-dev/MERN-Auth-w-React"
+      liveUrl: "https://devdixit-portfolio.vercel.app/",
+      codeUrl: "https://github.com/devdixit-dev/Portfolio"
     },
   ];
 
